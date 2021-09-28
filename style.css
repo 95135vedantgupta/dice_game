@@ -1,0 +1,67 @@
+body{
+    background-image: url('images/back.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    padding-bottom: 0.5em;
+}
+h1{
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    margin-top: 1em ;
+    margin-bottom: 0.5em;
+    font-size: 3.8em;
+    color: #FF2626;
+}
+p{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    font-size: 1.6em;
+    color:#FF2626;
+    font-size: 1.5em;
+}
+
+
+.dice_image{
+    height: 100px;
+}
+.table_1{
+    padding-top: 1.5em;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+.table_2{
+    width: 100%;
+    margin: auto;
+    color: #FA7D09;
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    font-size: 1.5em;
+}
+
+.table_3{
+    padding-top: 2.5em;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+.butt_start{
+    height: 5em;
+    padding-right: 1em;
+}
+.butt_reset{
+    height: 5em;
+    padding-left: 1em;
+}
+.butt_start:hover{
+    opacity: 0.5;
+}
+.butt_reset:hover{
+    opacity: 0.5;
+}
