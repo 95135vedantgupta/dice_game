@@ -84,15 +84,15 @@ function game_start() {
   value_2 = Math.floor((Math.random() * 6) + 1);
 
   if (value_1 > value_2) {
-    document.getElementById('result').innerHTML = '🔥Player_1 wins!';
+    document.getElementById('result').innerHTML = '🔥Player_1 wins';
     P_1++;
     document.getElementById('score1').innerHTML = `${P_1}`;
   } else if (value_1 < value_2) {
-    document.getElementById('result').innerHTML = 'Player_2 wins!🔥';
+    document.getElementById('result').innerHTML = 'Player_2 wins🔥';
     P_2++;
     document.getElementById('score2').innerHTML = `${P_2}`;
   } else {
-    document.getElementById('result').innerHTML = '🔥DRAW!🔥';
+    document.getElementById('result').innerHTML = '🔥DRAW🔥';
   }
 
   change();
