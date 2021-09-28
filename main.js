@@ -122,4 +122,12 @@ document.getElementById('reset_game').onclick = () => {
   document.getElementById('score2').innerHTML = '0';
   P_1 = 0;
   P_2 = 0;
+  image_tracker3 ='start';
+  var set_button_to_start_on_reset=document.getElementById('start_game');
+  set_button_to_start_on_reset.src = 'images/start.png';
+  var set_image_to_gif1_on_reset=document.getElementById('dice_gif');
+  set_image_to_gif1_on_reset.src = 'images/giphy.gif';
+  var set_image_to_gif2_on_reset=document.getElementById('dice_gif2');
+  set_image_to_gif2_on_reset.src = 'images/giphy.gif';
+  document.getElementById('result').innerHTML = 'THE DICE GAME!';
 }
